@@ -1,5 +1,4 @@
 import { nanoid } from 'nanoid'
-import { useState } from 'react'
 import './App.css'
 import pic from './grafiti01.jpg'
 import Card from './components/Card/Card'
@@ -26,17 +25,9 @@ const secondCard = [
 ]
 
 function App() {
-  const [clickCnt, setClickCnt] = useState(null)
-
-  const onClicked = (evt) => {
-    setClickCnt((prev) => +prev + 1)
-  }
-
   return (
     <div className="App">
-      <Card onSubmit={onClicked} clickCnt={clickCnt}>
-        {firstCard}
-      </Card>
+      <Card>{firstCard}</Card>
       <Card>{secondCard}</Card>
     </div>
   )

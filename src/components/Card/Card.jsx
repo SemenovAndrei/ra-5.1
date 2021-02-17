@@ -26,32 +26,21 @@ const Button = styled.button`
 `
 
 function Card(props) {
-  const onSubmit = (event) => {
-    props.onSubmit(event)
-  }
-
   return (
     <CardContainer className="Card">
       {props.children.filter((child) => child.type === 'img')}
       <CardBody>
         {props.children.filter((child) => child.type !== 'img')}
-        {props.onSubmit && (
-          <ButtonWrapper>
-            <Button className="card-button" onClick={onSubmit}>
-              Click {props.clickCnt}
-            </Button>
-          </ButtonWrapper>
-        )}
+        <ButtonWrapper>
+          <Button className="card-button">Click {props.clickCnt}</Button>
+        </ButtonWrapper>
       </CardBody>
     </CardContainer>
   )
 }
 
 Card.propTypes = {
-  image: PropTypes.string,
-  title: PropTypes.string,
-  text: PropTypes.string,
-  handleButton: PropTypes.func,
+  children: PropTypes.any,
 }
 
 export default Card
