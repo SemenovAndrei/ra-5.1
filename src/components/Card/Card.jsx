@@ -28,9 +28,10 @@ const Button = styled.button`
 function Card(props) {
   return (
     <CardContainer className="Card">
-      {props.children.filter((child) => child.type === 'img')}
+      {props.img && <img className="card-image" src={props.img} alt="card" />}
       <CardBody>
-        {props.children.filter((child) => child.type !== 'img')}
+        <h1 className="card-title">{props.title}</h1>
+        {props.children}
         <ButtonWrapper>
           <Button className="card-button">Click {props.clickCnt}</Button>
         </ButtonWrapper>
