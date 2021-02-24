@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ra-5.1/static/css/main.440b38ae.chunk.css",
+    "main.js": "/ra-5.1/static/js/main.418bdeb8.chunk.js",
+    "main.js.map": "/ra-5.1/static/js/main.418bdeb8.chunk.js.map",
+    "runtime-main.js": "/ra-5.1/static/js/runtime-main.f4a044a2.js",
+    "runtime-main.js.map": "/ra-5.1/static/js/runtime-main.f4a044a2.js.map",
+    "static/js/2.a2a7513e.chunk.js": "/ra-5.1/static/js/2.a2a7513e.chunk.js",
+    "static/js/2.a2a7513e.chunk.js.map": "/ra-5.1/static/js/2.a2a7513e.chunk.js.map",
+    "static/js/3.d3030dc7.chunk.js": "/ra-5.1/static/js/3.d3030dc7.chunk.js",
+    "static/js/3.d3030dc7.chunk.js.map": "/ra-5.1/static/js/3.d3030dc7.chunk.js.map",
+    "index.html": "/ra-5.1/index.html",
+    "static/css/main.440b38ae.chunk.css.map": "/ra-5.1/static/css/main.440b38ae.chunk.css.map",
+    "static/js/2.a2a7513e.chunk.js.LICENSE.txt": "/ra-5.1/static/js/2.a2a7513e.chunk.js.LICENSE.txt",
+    "static/media/grafiti01.dc784734.jpg": "/ra-5.1/static/media/grafiti01.dc784734.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4a044a2.js",
+    "static/js/2.a2a7513e.chunk.js",
+    "static/css/main.440b38ae.chunk.css",
+    "static/js/main.418bdeb8.chunk.js"
+  ]
+}
