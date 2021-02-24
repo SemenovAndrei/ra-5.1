@@ -23,6 +23,7 @@ const Button = styled.button`
   border-style: none;
   border-radius: 4px;
   background-color: #9ce606;
+  cursor: pointer;
 `
 
 function Card(props) {
